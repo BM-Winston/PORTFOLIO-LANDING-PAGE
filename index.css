@@ -51,3 +51,6 @@ a.active,a:hover{
     background:maroon;
     transition: 0.2s;
 }
+div{
+    margin: 15px;
+}
