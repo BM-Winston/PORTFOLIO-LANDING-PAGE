@@ -1,6 +1,12 @@
 html{
-    margin: 0;
-    padding: 0;
-    background-image: url(./images/bg.1.jpeg);
-    color: azure;
+  
+    background-image: url(./images/bg3.1.jpeg) ;
+    color: rgb(235, 231, 13);
+    
+    
+}
+img{
+    
+    height: 100%;
+    width: 30%;
 }
