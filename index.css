@@ -18,6 +18,36 @@ body{
 }
 nav{
     background: yellow;
-    height:80px
+    height:80px;
     width: 100%;
+}
+label.logo{
+    font-size: 45px;
+    color: black;
+    line-height: 80px;
+    padding: 0 7%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 10px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: black;
+    text-transform: capitalize;
+    text-decoration:solid;
+    font-size: larger;
+    border-radius: 3px;
+    padding: 7px 13px;
+    
+}
+a.active,a:hover{
+    background:maroon;
+    transition: 0.2s;
 }
