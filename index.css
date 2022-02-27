@@ -109,6 +109,27 @@ footer{
     background :white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.flex-box .hobbies{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 130px;
+    background :white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.flex-box .skills{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 130px;
+    background :white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .section_1{
     background-color: rgb(236, 234, 230);
     /* margin: 0%;
