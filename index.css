@@ -1,10 +1,11 @@
 body{
   
     /* background-image: url(./images/bg3.1.jpeg) ; */
-    color:brown;
+    /* color:rgb(233, 218, 218); */
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     
 }
@@ -23,9 +24,10 @@ img{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 } */
 nav{
-    background: whitesmoke;
+    background:wheat;
     height:80px;
     width: 100%;
+    color: yellow;
 }
 label.logo{
     font-size: 45px;
@@ -54,7 +56,7 @@ nav ul li a{
     
 }
 a.active,a:hover{
-    background:yellow;
+    background:rgb(214, 214, 211);
     transition: 0.2s;
 }
 div{
@@ -73,7 +75,7 @@ div{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    background-color: gray;
+    background-color:rgb(244, 247, 240);
 }
 .intro-2{
    /* text-align: right; */
@@ -81,9 +83,10 @@ div{
    
 }
 footer{
-    margin: 2%;
+    margin: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
+    background-color:rgb(94, 85, 85);
 }
 .interests{
     /* display: flex; */
@@ -106,8 +109,9 @@ footer{
     width: 300px;
     padding: 20px;
     margin-bottom: 130px;
-    background :white;
+    background :whitesmoke;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 33vh;
 }
 .flex-box .hobbies{
     display: flex;
@@ -116,7 +120,7 @@ footer{
     width: 300px;
     padding: 20px;
     margin-bottom: 130px;
-    background :white;
+    /* background :whitesmoke; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     height: 33vh;
 
@@ -128,17 +132,32 @@ footer{
     width: 300px;
     padding: 20px;
     margin-bottom: 130px;
-    background :rgb(218, 128, 128);
+    background :whitesmoke;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     height: 33vh;
 }
 .section_1{
-    background-color: rgb(236, 234, 230);
-    /* margin: 0%;
-    padding: 0%; */text-align: center;
+    background-color: rgb(219, 219, 209);
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
     
 }
 .section_2{
     display: flex;
     flex-direction: column;
+    background-color: rgb(235, 228, 228);
+    margin: 0;
+    padding: 0;
+    height: 40%;
+}
+ .about{
+    /* display: flex; */
+    float: right;
+
+}
+.section_1 .students{
+    box-sizing: border-box;
+    border: 2%
+    ;
 }
