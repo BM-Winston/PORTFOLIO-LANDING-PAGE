@@ -3,6 +3,9 @@
 ##### By Winston Musasia
 ### This is a project about creating a portfolio landing page.
 
+## Live link
+https://bm-winston.github.io/PORTFOLIO-LANDING-PAGE/
+
 ## Table of Content
 
 + [Description](#description)
